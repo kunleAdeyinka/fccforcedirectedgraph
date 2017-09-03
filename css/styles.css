@@ -1,0 +1,42 @@
+body{
+    font-family: Raleway;
+    color: #555;
+    background: #ff5252;
+    margin: 10px 30px;
+}
+#tooltip {
+	display: none;
+	padding: 3px;
+	border-radius: 2px;
+	box-shadow: -2px 2px 10px black;
+	z-index: 1;
+	position: absolute;
+	background-color: white;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+}
+
+.graph {
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  box-shadow: -3px 3px 20px black;
+  background-color: grey;
+}
+
+.link {
+  stroke-width: 1px;
+  stroke: #CCC;
+}
+
+.flagbox {
+  position: absolute;
+}
+
+.flag {
+  position: absolute;
+}
